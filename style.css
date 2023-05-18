@@ -1,0 +1,204 @@
+html {
+    background: url(./image-assets/artifical-rebirth.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.header {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    position: center;
+  }
+  .header2 {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(128, 128, 128, 0.521);
+    padding: 10px;
+    text-align: center;
+    padding: 20px;
+    position: center;
+  }
+
+  .footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+    position: center;
+  }
+
+  .div {
+    padding-top: 10%;
+  }
+  
+  #plzcenter {
+    margin: auto;
+    width: 50%;
+  }
+
+  ul {
+    display: inline;
+    
+  }
+
+  li {
+    display: inline;
+  }
+
+  .button:hover {
+    height: 40px;
+    width: 75px;
+    padding: 10px;
+    background-color: rgba(19, 19, 19, 0.712);
+    color: rgb(172, 252, 252);
+    opacity: 0.7;
+    border: 5px solid rgba(255, 255, 255, 0.747);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+  .button {
+    height: 40px;
+    width: 75px;
+    padding: 10px;
+    background-color: rgba(2, 13, 109, 0.459);
+    color: aqua;
+    text-shadow: 2px 2px 4px #000000;
+    opacity: 1;
+    border: 5px solid rgba(128, 128, 128, 0.651);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+  .img {
+    border: 5px solid transparent;
+  }
+
+  .textstuff {
+    height: auto;
+    width: 500px;
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(128, 128, 128, 0.521);
+    padding: 10px;
+  }
+
+  #textcolor {
+    color: aqua;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .imgsize1 {
+    height: 300px;
+    width: 300px;
+  }
+
+  #center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid transparent;
+    padding: 10px;
+  }
+
+  #livebox {
+    position: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(128, 128, 128, 0.521);
+    padding: 10px;
+    margin-left: 5px;
+  }
+
+  .livebox {
+    position: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(128, 128, 128, 0.521);
+    padding: 10px;
+    margin-left: 5px;
+  }
+
+  #livebox2 {
+    position: center;
+    height: 300px;
+    width: 350px;
+    background-color: transparent;
+    border: 3px solid transparent;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.column4 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  margin-left: auto;
+}
+
+.column2 {
+  float: right;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.column3 {
+  float: center;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
