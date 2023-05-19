@@ -98,8 +98,9 @@ html {
   }
 
   .imgsize1 {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 380px;
+    padding: 10px;
   }
 
   #center {
@@ -111,12 +112,12 @@ html {
 
   #livebox {
     position: center;
-    height: 300px;
+    height: 400px;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.548);
     border: 3px solid rgba(128, 128, 128, 0.521);
-    padding: 10px;
-    margin-left: 5px;
+    padding: 15px;
+    margin-left: 7.3px;
   }
 
   .livebox {
@@ -127,6 +128,30 @@ html {
     border: 3px solid rgba(128, 128, 128, 0.521);
     padding: 10px;
     margin-left: 5px;
+  }
+
+  #livebox3 {
+    text-align: center;
+    position: center;
+    height: 600px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(128, 128, 128, 0.521);
+    padding: 10px;
+    margin-left: 5px;
+    
+  }
+
+  #livebox4 {
+    text-align: center;
+    position: center;
+    height: 600px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 3px solid rgba(128, 128, 128, 0.521);
+    padding: 10px;
+    margin-left: 5px;
+    
   }
 
   #livebox2 {
@@ -168,6 +193,12 @@ html {
   padding: 15px;
 }
 
+.column5 {
+  float: left;
+  width: 15.33%;
+  padding: 15px;
+}
+
 .column4 {
   float: left;
   width: 33.33%;
@@ -182,9 +213,9 @@ html {
 }
 
 .column3 {
-  float: center;
-  width: 33.33%;
-  padding: 15px;
+  float: left;
+  width: 45.33%;
+  padding: 10px;
 }
 
 
@@ -202,3 +233,51 @@ html {
 }
 
 
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  position: center;
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#divimagesize {
+  height: 50px;
+  width: 50px;
+}
+
+.test {
+  border: 0; 
+  width: 350px;
+  height: 470px;
+}
